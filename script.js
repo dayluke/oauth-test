@@ -8,9 +8,9 @@ window.onload = start();
 
 function start()
 {
-    if(window.url.includes(redirect_url))
+    if(window.href.indexOf('#access_token') > 0)
     {
-         alert("Finished");
+        alert("Finished");
     }
 }
 
