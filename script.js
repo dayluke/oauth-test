@@ -8,7 +8,7 @@ window.onload = start();
 
 function start()
 {
-    if(window.href.indexOf('#access_token') > 0)
+    if(window.location.href.indexOf('#access_token') > 0)
     {
         alert("Finished");
     }
